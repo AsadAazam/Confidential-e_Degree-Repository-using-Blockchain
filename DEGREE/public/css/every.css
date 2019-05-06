@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head >
-    
-    <link rel="stylesheet" type="text/css" src="main.css">
-   
-</div>
-    
-<style>* {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -22,7 +14,7 @@ body {
     font-weight: 100;
     font-size: 20px;
     line-height: 30px;
-    color:yellow;
+    color:red;
     background-color:wheat;
     background-image: url(https://www.mckinsey.com/~/media/McKinsey/Industries/Electric%20Power%20and%20Natural%20Gas/Our%20Insights/What%20every%20utility%20CEO%20should%20know%20about%20blockchain/hero-blockchain-utilities.ashx);
     padding: 2em;
@@ -33,7 +25,7 @@ fieldset {
     border: medium none !important;
     margin: 0 0 10px;
     min-width: 100%;
-    padding: 0;
+    padding: 16px;
     width: 100%;
   }
 .container {
@@ -42,6 +34,7 @@ fieldset {
   margin: 0 auto;
   position: relative;
   background-color: beige;
+  padding: 16px
 }
 label {
     display:block;
@@ -54,7 +47,7 @@ input {
 }
 button {
     margin: 2em 0;
-    padding: 1em 4em;
+    padding: 16px 16px;
     display:block;
 }
 
@@ -222,7 +215,7 @@ button {
         }
 h2
 {
-    color:yellow;
+    color:red;
     font-size: 50px;
     font-family: cursive;
     
@@ -240,61 +233,3 @@ h2
 }
 </style>
 </head>
-<script>function Show(){
-  window.alert("Deploying please wait!!!!!!!!")
-}
-</script>
-<body >
-  
-<div class="c">
-        <h2 ></h2>
-</div>
-
-  </div>
-  
-<div class="o">
-        <h2 id="instructor"></h2>
-     
-    
-        <hr>
-        <img id="loader" src="https://loading.io/spinners/double-ring/lg.double-ring-spinner.gif">
-        
-    </div>
-        <div class="container">
-        <form id ="contact" action="/addUser" method="post">
-            <h3>Upload Degree Form</h3>
-            <h4>Fill Details</h4>
-            <fieldset>
-                <input id="rollNo" type="number" name="rollNo" placeholder="Roll NO of student" required autofocus class="b">
-                </fieldset>
-        <fieldset>
-        <input id="univName" type="text" name="univName" placeholder="Name Of University" required  class="b">
-        </fieldset>
-        <fieldset>
-        <input id="studName" type="text" name="studName" placeholder="Name Of Degree Holder"required >
-        </fieldset>
-        <fieldset>
-        <input id="fatherName" type="text" name="fatherName" placeholder="Father's Name"required >
-        </fieldset>
-        <fieldset>
-        <input id="course" type="text" name ="course" placeholder="Course"required >
-        </fieldset>
-       <fieldset>
-        <input id="dateOfAward" type="text" name="dateOfAward" placeholder="Date Of Degree Awarded"required >
-       </fieldset>
-       <fieldset>
-        <input id="grade" type="text" name="grade" placeholder="Grade"required >
-       </fieldset>
-       <input type="submit"  value ="Enter" onclick="Show()">
-        </form>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    </div>
-    
-   
-   
-    <script>
-  
-    </script>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</body>
-</html>

@@ -92,12 +92,25 @@ con.connect(function(err) {
               fatherName:d,
               course:e,
               date:f,
-              grade:g
+              grade:g,
+              degree:"Degree",
+              uvi:"ABC Technical University"
               
           })
           }
           else
-          response.send('<h1><i>Fake Degree</i></h1>')
+          {response.render('aktu',{
+            name:"Fake",
+            roll:"Fake",
+            univ:"Fake",
+            fatherName:"Fake",
+            course:"Fake",
+            date:"Fake",
+            grade:"Fake",
+            degree:"Fake Degree",
+            uvi:"Fake University"
+          })
+          }
           console.log(txData);
           }).catch((error)=>{
             console.log("soemthing went wrong")
@@ -109,14 +122,14 @@ con.connect(function(err) {
           // }) 
           }
           else{
-            response.send("Please enter a valid roll number")
+            response.render('fake')
           }
          
           //console.log(ethers.utils.toUtf8String(data),'absd')
           
       })
       })
-
+    
 
       function hexToString (hex) {
         var string = '';

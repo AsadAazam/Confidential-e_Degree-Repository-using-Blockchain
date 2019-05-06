@@ -37,7 +37,7 @@
        
         #c,#d{float: left;height:auto;width:50%;margin-top:50px;}
         #c td,#d td{padding:10px;}#c table,#d table{margin:auto;}
-        .ent{font-family: 'Acme';font-size:18px;color:blueviolet;text-align:left;white-space: nowrap;}
+        .ent{font-family: 'Acme';font-size:18px;color:black;text-align:left;white-space: nowrap;}
         #name,#father,#roll,#degree,#univ,#degree,#marks,#grade,#doa{
             font-family:'Calligraffitti';font-weight: bolder;font-size:18px;white-space: nowrap;text-align:left; }
             @media screen and (max-width:780px){#c,#d{float:none;width:100%;} #d{margin-top:0px;}
@@ -56,22 +56,22 @@
 </head>
 <body onload="data();"><div class="container">
     <div id="a">
-        <h1 style="white-space:nowrap;" id="x">ABC Technical University</h1>
+        <h1 style="white-space:nowrap;" id="x">{{uvi}}</h1>
         <img src="/images/uptu_logo.png" alt="#"/>
         <p style="margin-top:10px;"><b>(Line 1)</b></p>
         <p><b>(Line 2)</b></p>
         <p><b>(Line 3)</b></p>
-        <h1 style="font-family:'UnifrakturCook';color:red;">Degree</h1></div>
-       <div id="c"><table><tr><td class="ent"><b>Student Name : {{name}}</b></td><td id="name"></td> </tr>
-       <tr><td class="ent"><b>Roll No :{{roll}}</b></td><td id="roll"></td> </tr>
-    <tr><td class="ent"><b>Course :{{course}}</b></td><td id="degree"></td> </tr>
-<tr><td class="ent"><b>University :{{univ}}</b></td><td id="univ"></td>
+        <h1 style="font-family:'UnifrakturCook';color:red;">{{degree}}</h1></div>
+       <div id="c"><table><tr><td class="ent"><b>Student Name : </b><i> {{name}}</i></td><td id="name"></td> </tr>
+       <tr><td class="ent"><b>Roll No :</b><i> {{roll}}</i></td><td id="roll"></td> </tr>
+    <tr><td class="ent"><b>Course :</b><i> {{course}}</i></td><td id="degree"></td> </tr>
+<tr><td class="ent"><b>University :</b><i> {{univ}}</i></td><td id="univ"></td>
     </tr></table></div>
 
-    <div id="d"><table><tr><td class="ent"><b>Father's Name :{{fatherName}}</b></td><td id="father"></td> <tr>
+    <div id="d"><table><tr><td class="ent"><b>Father's Name :</b><i> {{fatherName}}</i></td><td id="father"></td> <tr>
         {{!-- <tr><td class="ent"><b>Marks :</b></td><td id="marks"></td> </tr> --}}
-    <tr><td class="ent"><b>Grade :{{grade}}</b></td><td id="grade"></td> </tr>
-<tr>  <td class="ent"><b>Date of Award :{{date}}</b></td><td id="doa"></td>
+    <tr><td class="ent"><b>Grade :</b><i> {{grade}}</i></td><td id="grade"></td> </tr>
+<tr>  <td class="ent"><b>Date of Award :</b><i> {{date}}</i></td><td id="doa"></td>
     </tr></table>
     </div>
 
